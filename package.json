@@ -1,0 +1,31 @@
+{
+  "name": "node_apiusers",
+  "version": "1.0.0",
+  "description": "Proyecto de api restful con node - express - mysql - sequelize ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harlericho/node_apiusers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harlericho/node_apiusers/issues"
+  },
+  "homepage": "https://github.com/harlericho/node_apiusers#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
