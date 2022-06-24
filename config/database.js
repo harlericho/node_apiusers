@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 const modelUser = require("../models/user");
-const sequilize = new Sequelize("db_apiusers1", "root", "root", {
+const sequilize = new Sequelize("db_api_users", "root", "root", {
   host: "localhost",
   dialect: "mysql",
 });
